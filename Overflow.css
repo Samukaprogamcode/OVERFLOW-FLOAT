@@ -1,0 +1,51 @@
+body {
+    background-color: bisque;
+    position: relative;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    position: sticky;
+    top: 0;
+}
+
+.TAGSCROLL {
+    background-color: black;
+    height: 87px;
+    color: white;
+    overflow: scroll;
+}
+
+footer {
+    background-color: purple;
+    position: fixed;
+    padding: 20px;
+    border: solid 3px white;
+    font-weight: bold;
+    bottom: 0;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    background-color: white;
+}
+
+.TAGHIDDEN {
+    background-color: black;
+    height: 130px;
+    color: white;
+    overflow: hidden;
+}
+
+.container {
+    border: solid 2px black;
+    overflow: auto;
+    font-size: 30px;
+}
+
+.container img {
+    float: right;
+}
